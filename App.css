@@ -1,0 +1,21 @@
+/* App.css */
+.clock-container {
+  position: relative;
+  display: inline-block;
+}
+
+.time-display-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;  /* Adjust the font size as needed */
+  color: #000;  /* Change to desired text color */
+  text-align: center;
+}
+
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
